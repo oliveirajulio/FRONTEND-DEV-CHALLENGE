@@ -1,0 +1,45 @@
+:root {
+    --cor-primaria: #4f4f51;
+    --cor-secundaria: #d5c8B6; 
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    outline: none;
+    
+}
+
+.btn-light {
+    background-color: var(--cor-primaria);
+    border: none;
+    outline: none !important;
+    user-select: none;
+    color: white;
+}
+
+.btn-light:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.btn-light:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-outline-light {
+    border-color: var(--cor-primaria);
+    color: var(--cor-primaria);
+    outline: none !important;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--cor-primaria);
+    border: none;
+}
+

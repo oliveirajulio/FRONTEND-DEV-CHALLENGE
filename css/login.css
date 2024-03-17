@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headerbar {
+    justify-content: space-between;
+    display: flex;
+    padding: 8px;
+    padding: 16px;
+    color: var(--cor-primaria);
+}
+
+
+
+li {
+    display: inline;
+    padding: 8px;
+    margin: auto;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.utility {
+    margin-right: 50px;
+}
+
+.tilte {
+    margin-right: 30px;
+    text-align: center;
+}
+
+#container {
+    background-image: url(../sub-buzz-1202-1701261063-1\ \(1\).jpeg);
+    width: 100vw;
+    transition: background-color 1.5s ease-in-out;
+    height: 100vh;
+
+}
+
+.box-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    margin: auto;
+    border: none;
+    padding: 20px;
+}
+
+.login-title {
+    text-align: center;
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.group {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: var(--cor-primaria);
+}
+
+input,
+#btn-entrar {
+    width: 100%;
+    padding: 8px;
+    border: solid #ddd;
+    border-radius: 5px;
+
+}
+
+#btn-entrar {
+    margin-top: 25px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+#btn-entrar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+
+}
+
+.esqueci-minha-senha a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+
+}
+
+.esqueci-minha-senha a:hover {
+    color: var(--cor-secundaria);
+}
+
+#loading {
+    display: none;
+}
